@@ -1,0 +1,5 @@
+model,cv_accuracy,train_accuracy,test_accuracy,precision,recall,f1_score,best_params
+Logistic Regression,0.7362934676633084,0.7631482162559765,0.7529411764705882,0.7504454203564327,0.7480691812333861,0.748758227052444,{'classifier__estimator__C': 10.0}
+Decision Tree,0.8370700628317624,0.9371092313350496,0.861764705882353,0.8602802847600342,0.8599124917658861,0.8600696056335414,"{'classifier__estimator__max_depth': 10, 'classifier__estimator__min_samples_split': 10}"
+KNN,0.7293020799480013,1.0,0.7161764705882353,0.7151507484714316,0.7139418332698778,0.7135931390793248,"{'classifier__estimator__n_neighbors': 5, 'classifier__estimator__weights': 'distance'}"
+Random Forest,0.865381594626801,1.0,0.8779411764705882,0.8765239241648767,0.8765731582132642,0.8765376876270548,"{'classifier__estimator__max_depth': None, 'classifier__estimator__min_samples_split': 2, 'classifier__estimator__n_estimators': 100}"
